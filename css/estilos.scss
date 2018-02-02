@@ -1,5 +1,6 @@
 $color-default: #66DDDD;
 $color-aux: #1e2c35;
+$color-white: #FFF;
 
 /** Geral **/
 body {
@@ -59,7 +60,7 @@ header .container {
 }
 
 .menu-opcoes a {
-  color: white;
+  color: $color-white;
   text-decoration: none;
 }
 
@@ -72,7 +73,7 @@ header .container {
   background: url(../imagens/destaque.jpg) center bottom repeat-x;
   -webkit-background-size: cover;
   background-size: cover;
-  color: white;
+  color: $color-white;
   height: 330px;
   padding-top: 10em;
 }
@@ -166,11 +167,11 @@ header .container {
 }
 
 .planos h2 {
-  color: #fff;
+  color: $color-white;
 }
 
 .plano {
-  background: white;
+  background: $color-white;
   width: 18em;
   display: inline-block;
   margin: 1em 0 0 1.4em;
@@ -182,7 +183,7 @@ header .container {
 }
 
 .plano h3 {
-  color: #fff;
+  color: $color-white;
   font-size: 1.8em;
   background: $color-default;
   text-align: center;
@@ -220,7 +221,7 @@ header .container {
 .plano button {
   background: $color-default;
   border: 0;
-  color: #fff;
+  color: $color-white;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
@@ -318,7 +319,7 @@ textarea {
   margin: 0 auto;
   background: $color-default;
   border: 0;
-  color: #fff;
+  color: $color-white;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
@@ -392,7 +393,7 @@ footer .container img {
 }
 
 footer a {
-  color: #fff;
+  color: $color-white;
   text-decoration: none;
 }
 
