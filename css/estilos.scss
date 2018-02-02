@@ -1,8 +1,10 @@
+// Variables
 $color-default: #c24e4b;
 $color-aux: #1e2c35;
 $color-white: #FFF;
 $larger-radius: 50px;
 
+// Mixin to set border-radius
 @mixin round-border($radius: 0.3em) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -11,6 +13,7 @@ $larger-radius: 50px;
   border-radius: $radius;
 }
 
+// Mixin to set default shadow
 @mixin default-shadow {
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
