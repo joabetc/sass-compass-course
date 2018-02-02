@@ -4,20 +4,12 @@ $color-white: #FFF;
 $radius: 0.3em;
 $larger-radius: 50px;
 
-@mixin round-border {
+@mixin round-border($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   -o-border-radius: $radius;
   -ms-border-radius: $radius;
   border-radius: $radius;
-}
-
-@mixin larger-radius-round-border {
-  -webkit-border-radius: $larger-radius;
-  -moz-border-radius: $larger-radius;
-  -o-border-radius: $larger-radius;
-  -ms-border-radius: $larger-radius;
-  border-radius: $larger-radius;
 }
 
 @mixin default-shadow {
@@ -125,7 +117,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  @include larger-radius-round-border;
+  @include round-border(50px);
   @include default-shadow;
   font-weight: bold;
 }
@@ -249,7 +241,7 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include round-border;
+  @include round-border(0.3em);
   @include default-shadow;
   margin-left: 2em;
 }
@@ -333,7 +325,7 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  @include round-border;
+  @include round-border(0.3em);
   border: 2px solid #ccc;
 }
 
@@ -345,7 +337,7 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include round-border;
+  @include round-border(0.3em);
   @include default-shadow;
 }
 
