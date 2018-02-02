@@ -3,6 +3,11 @@ $color-aux: #1e2c35;
 $color-white: #FFF;
 $radius: 0.3em;
 
+@mixin round-border {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
 /** Geral **/
 body {
   font-family: "Roboto Slab", serif;
@@ -100,8 +105,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
+  @include round-border;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
@@ -226,8 +230,7 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
+  @include round-border;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
@@ -311,8 +314,7 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
+  @include round-border;
   border: 2px solid #ccc;
 }
 
@@ -324,8 +326,7 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
+  @include round-border;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
