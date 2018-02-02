@@ -1,3 +1,5 @@
+$color-default: #66DDDD;
+
 /** Geral **/
 body {
   font-family: "Roboto Slab", serif;
@@ -27,7 +29,7 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #66DDDD;
+  border-top: 5px solid $color-default;
   background: rgba(30, 44, 53, 0.8);
   height: 90px;
   width: 100%;
@@ -91,7 +93,7 @@ header .container {
 
 .destaque button {
   margin-top: 1em;
-  background: #66DDDD;
+  background: $color-default;
   border: 0;
   padding: .6em;
   font-size: 1.2em;
@@ -181,7 +183,7 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #66DDDD;
+  background: $color-default;
   text-align: center;
   height: 2em;
   padding-top: .6em;
@@ -190,7 +192,7 @@ header .container {
 
 .plano div {
   text-align: center;
-  color: #66DDDD;
+  color: $color-default;
   font-size: 2.75em;
 }
 
@@ -215,7 +217,7 @@ header .container {
 }
 
 .plano button {
-  background: #66DDDD;
+  background: $color-default;
   border: 0;
   color: #fff;
   width: 210px;
@@ -313,7 +315,7 @@ textarea {
 
 .contato button {
   margin: 0 auto;
-  background: #66DDDD;
+  background: $color-default;
   border: 0;
   color: #fff;
   width: 210px;
