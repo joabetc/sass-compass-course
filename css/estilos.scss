@@ -1,4 +1,5 @@
 $color-default: #66DDDD;
+$color-aux: #1e2c35;
 
 /** Geral **/
 body {
@@ -30,7 +31,7 @@ h2 {
 /** Header **/
 header {
   border-top: 5px solid $color-default;
-  background: rgba(30, 44, 53, 0.8);
+  background: rgba($color-aux, 0.8);
   height: 90px;
   width: 100%;
   position: absolute;
@@ -161,7 +162,7 @@ header .container {
 
 /** Planos **/
 .planos {
-  background: #1e2c35;
+  background: $color-aux;
 }
 
 .planos h2 {
@@ -346,7 +347,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #1e2c35;
+  background: $color-aux;
   top: 0;
   left: 0;
   bottom: 0;
