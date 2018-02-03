@@ -1,6 +1,8 @@
 @import 'helpers/variables';
 @import 'helpers/mixins';
 
+@import 'base/normalize.css';
+
 @import 'layout/geral';
 @import 'layout/header';
 @import 'layout/destaque';
