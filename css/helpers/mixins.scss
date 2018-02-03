@@ -8,7 +8,7 @@
 }
 
 // Mixin for image replacement
-@mixin image-replacement {
+%image-replacement {
   text-indent: -9999px;
   overflow: hidden;
   background-repeat: no-repeat;

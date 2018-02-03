@@ -1,3 +1,8 @@
+.plataformas li, .social li a {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat; }
+
 .destaque button, .plano button, .contato button {
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
@@ -473,9 +478,6 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   background-position: center;
   margin: 1em 1.5em 0 0; }
 
@@ -700,9 +702,6 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   margin-left: 1em; }
 
 .social a {
