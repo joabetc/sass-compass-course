@@ -3,4 +3,4 @@ $color-default: darken(#c24e4b, 0);
 $color-aux: lighten(#1e2c35, 0);
 $color-white: #FFF;
 $larger-radius: 50px;
-$width-limit: 980px;
+$mq-mobile: "(max-width: 980px)";
