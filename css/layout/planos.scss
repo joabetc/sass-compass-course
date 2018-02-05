@@ -62,7 +62,7 @@
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include round-border;
+  @include border-radius(50px);
   @include box-shadow(black 0 2px 5px);
   margin-left: 2em;
 }
