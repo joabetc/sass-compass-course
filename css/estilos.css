@@ -5,11 +5,11 @@ Error: File to import not found or unreadable: comass/utilities.
          C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets
          Compass::SpriteImporter
         on line 26 of C:/Users/Joabe/Projetos/sass-compass-course/css/helpers/mixins.scss
-        from line 4 of C:/Users/Joabe/Projetos/sass-compass-course/css/estilos.scss
+        from line 5 of C:/Users/Joabe/Projetos/sass-compass-course/css/estilos.scss
 
 Backtrace:
 C:/Users/Joabe/Projetos/sass-compass-course/css/helpers/mixins.scss:26
-C:/Users/Joabe/Projetos/sass-compass-course/css/estilos.scss:4
+C:/Users/Joabe/Projetos/sass-compass-course/css/estilos.scss:5
 C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:44:in `import'
 C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -65,4 +65,4 @@ C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/lis
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: comass/utilities.\A        Load paths:\A          C:/Users/Joabe/Projetos/sass-compass-course/css\A          C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets\A          Compass::SpriteImporter\A         on line 26 of C:/Users/Joabe/Projetos/sass-compass-course/css/helpers/mixins.scss\A         from line 4 of C:/Users/Joabe/Projetos/sass-compass-course/css/estilos.scss"; }
+  content: "Error: File to import not found or unreadable: comass/utilities.\A        Load paths:\A          C:/Users/Joabe/Projetos/sass-compass-course/css\A          C:/Program Files/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets\A          Compass::SpriteImporter\A         on line 26 of C:/Users/Joabe/Projetos/sass-compass-course/css/helpers/mixins.scss\A         from line 5 of C:/Users/Joabe/Projetos/sass-compass-course/css/estilos.scss"; }
