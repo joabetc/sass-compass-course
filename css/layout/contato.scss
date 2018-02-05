@@ -31,5 +31,5 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   @include round-border;
-  @extend %default-shadow;
+  @include single-box-shadow;
 }
